@@ -1,5 +1,5 @@
 {
-  "name": "stream-project",
+  "name": "postgres-stream",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,7 +17,9 @@
   "license": "MIT",
   "keywords": [],
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "knex": "^0.95.7",
+    "pg": "^8.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",

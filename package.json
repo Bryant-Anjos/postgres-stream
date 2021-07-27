@@ -17,9 +17,13 @@
   "license": "MIT",
   "keywords": [],
   "dependencies": {
+    "@types/streaming-json-stringify": "^3.1.1",
     "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
     "knex": "^0.95.7",
-    "pg": "^8.6.0"
+    "pg": "^8.6.0",
+    "pg-query-stream": "^4.1.0",
+    "streaming-json-stringify": "^3.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
